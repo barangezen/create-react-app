@@ -56,5 +56,9 @@
     "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": [
       "prettier --write"
     ]
+  },
+  "name": "custom-create-react-app",
+  "bin": {
+    "custom-create-react-app": "./tasks/cra.js"
   }
 }

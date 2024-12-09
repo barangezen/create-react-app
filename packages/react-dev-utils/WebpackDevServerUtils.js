@@ -97,7 +97,7 @@ function printInstructions(appName, urls, useYarn) {
     `To create a production build, use ` +
       `${chalk.cyan(`${useYarn ? 'yarn' : 'npm run'} build`)}.`
   );
-  console.log();
+  console.log('Baran was here...');
 }
 
 function createCompiler({
